@@ -11,7 +11,7 @@ if (!$conn) {
 if ($_SERVER["REQUEST_METHOD"] !== "DELETE") {
     echo json_encode([
         "status" => "error",
-        "message" => "Only DELETE method allowed"
+        "message" => "Only DELETE method  is allowed"
     ]);
     exit();
 }
